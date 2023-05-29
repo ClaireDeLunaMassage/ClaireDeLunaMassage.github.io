@@ -1,0 +1,16 @@
+
+.container {
+  width: 100% ;
+  margin: 0;
+  padding: 0;
+}
+
+.ventouses img { /*permet de selectionner que l'image correspondant au div hero */
+  width: 100%;
+  border-radius: 0;
+}
+
+aside.right, aside.left {
+  text-align: center;
+  float: inherit; /* overwrites les float de la feuille style.css*/
+}
